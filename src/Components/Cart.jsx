@@ -48,7 +48,7 @@ const Cart = () => {
             <div key={index}>
               <div className="card">
                 <div className="row">
-                  <div className="col-md-3 col-lg-3 col-xl-3">
+                  <div className="col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center">
                     <img
                       src={element.thumbnail}
                       className="img-fluid rounded-3"
@@ -56,7 +56,7 @@ const Cart = () => {
                     />
                   </div>
 
-                  <div className="col-md-6 col-lg-6 col-xl-6">
+                  <div className="col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
                     <div className="card-body">
                       <h1 className="card-title pb-2 ">{element.title}</h1>                      
                       <h4 className="card-title">{element.brand}</h4>
